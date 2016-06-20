@@ -1,0 +1,48 @@
+\documentclass{scrartcl}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{exsheets}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[backend=bibtex]{biblatex}
+\addbibresource{solution.bib}
+
+\begin{document}
+
+\SetupExSheets{
+  question/type = exam ,
+  headings = klausur,
+  solution/print = true,
+  counter-within=section
+}
+
+\let\oldsolution\solution
+
+\renewenvironment{solution}{%
+	\SetupExSheets{counter-format=}
+    \oldsolution
+}
+
+\begin{titlepage}
+  \centering
+  \Huge Theoriepr"ufung DSV-Skilehrer \par
+  \vspace{3cm}
+  \normalsize
+  Diese L"osung wurde nicht von mir selbst erstellt. Ich habe diese L"osung aus mehreren anderen L"osungen zus"atzlich einiger Erg"anzungen zusammengestellt. Anmerkungen oder Fragen k"onnen gerne an mich gestellt werden.\\
+  Es gibt einige Fragen mit Kursiv geschriebenen Abchnitten und / Trennzeichen. Dies ist als Auswahl zu verstehen, und in der tats"achlichen Frage steht nur eine der M"oglichkeiten.
+\end{titlepage}
+
+\tableofcontents
+\newpage
+\input{sportorganisation}
+\newpage
+\input{sportrechtsicherheit}
+\newpage
+\input{sportpaedagogik}
+\newpage
+\input{sportdidaktik}
+\newpage
+\printbibliography
+
+\end{document}
