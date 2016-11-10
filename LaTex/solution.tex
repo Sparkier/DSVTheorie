@@ -1,3 +1,4 @@
+\listfiles
 \documentclass{scrartcl}
 \usepackage[T1]{fontenc}
 \usepackage[ngerman]{babel}
@@ -5,7 +6,7 @@
 \usepackage{array}
 \usepackage{graphicx}
 \usepackage{float}
-\usepackage[backend=bibtex]{biblatex}
+\usepackage[backend=biber,sortcites,defernumbers]{biblatex}
 \addbibresource{solution.bib}
 
 \begin{document}
@@ -29,22 +30,20 @@
   \Huge Theoriepr"ufung DSV-Skilehrer \par
   \vspace{3cm}
   \normalsize
-  Diese L"osung wurde nicht von mir selbst erstellt. Ich habe diese L"osung aus mehreren anderen L"osungen zus"atzlich einiger Erg"anzungen zusammengestellt. Anmerkungen oder Fragen k"onnen gerne an mich gestellt werden.\\
-  Es gibt einige Fragen mit Kursiv geschriebenen Abchnitten und / Trennzeichen. Dies ist als Auswahl zu verstehen, und in der tats"achlichen Frage steht nur eine der M"oglichkeiten.
+    Diese L"osung wurde nicht von mir selbst erstellt. Ich habe diese L"osung aus mehreren anderen L"osungen zus"atzlich einiger Erg"anzungen zusammengestellt. Anmerkungen oder Fragen k"onnen gerne an mich gestellt werden.\\
+  Es gibt einige Fragen mit Kursiv geschriebenen Abchnitten und / Trennzeichen. Dies ist als Auswahl zu verstehen, und in der tats"achlichen Frage steht nur eine der M"oglichkeiten.\\
 \end{titlepage}
 
 \tableofcontents
-\newpage
-\input{sportorganisation}
-\newpage
-\input{sportrechtsicherheit}
-\newpage
-\input{sportpaedagogik}
-\newpage
-\input{sportdidaktik}
-\newpage
-\input{sportpsychologie}
-\newpage
+\include{sportorganisation}
+\include{sportrechtsicherheit}
+\include{sportpaedagogik}
+\include{sportdidaktik}
+\include{sportpsychologie}
+%\include{biomechanik}
+%\include{bewegungslehre}
+%\include{trainingslehre}
+%\include{ernaehrung}
 \printbibliography
 
 \end{document}
