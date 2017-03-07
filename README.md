@@ -18,7 +18,5 @@ Ich bin jedoch über jegliche Hilfe froh.
 Im folgenden finden sich eineige Informationen zu Git:
 
 [Ausführlicher Guide](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
-
 oder 
-
 [Beginner Guide](http://rogerdudler.github.io/git-guide/)
