@@ -6,7 +6,11 @@ Ein [PDF](https://gitlab.com/Sparkier/DSVTheorie/blob/master/LaTex/solution.pdf)
 ---
 
 ## Beteiligung
-Jeder kann sich an dieser Lösung beteiligen. Optimaler Weise wird ein Merge-Request auf diesem Git-Repository erstellt, nachdem die LaTex-Dateien bearbeitet oder ergänzt wurden. Im folgenden finden sich eineige Informationen zu Git:
+Jeder kann sich an dieser Lösung beteiligen. Nachfolgend ist eine Liste der Möglichkeiten, mit denen man sich beteiligen kann. 
+Diese Liste ist so sortiert, dass für mich der Arbeitsaufwand bei 1 am geringsten ist und dann kontinuierlich steigt. 
+Ich bin jedoch über jegliche Hilfe froh.
+
+1. Optimaler Weise wird ein Merge-Request auf diesem Git-Repository erstellt, nachdem die LaTex-Dateien bearbeitet oder ergänzt wurden. Im folgenden finden sich eineige Informationen zu Git:
 
 [Ausführlicher Guide](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
@@ -14,4 +18,6 @@ oder
 
 [Beginner Guide](http://rogerdudler.github.io/git-guide/)
 
-Für Interessierte ohne Kenntnisse über LaTex und/oder Git ist es auch möglich, mir direkt eine Mail zu schreiben (Adresse in PDF).
+2. Issue auf Gitlab erstellen mit möglichst genauer Beschreibung des Problems
+3. Mail mit sehr genauer Beschreibung oder Komplettlösung einer Frage (Adresse in PDF)
+4. Mail mit Hinweisen auf Fehler oder Ähnliches
