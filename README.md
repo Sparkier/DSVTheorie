@@ -10,7 +10,7 @@ Jeder kann sich an dieser Lösung beteiligen. Nachfolgend ist eine Liste der Mö
 Diese Liste ist so sortiert, dass für mich der Arbeitsaufwand bei 1 am geringsten ist und dann kontinuierlich steigt. 
 Ich bin jedoch über jegliche Hilfe froh.
 
-1. Optimaler Weise wird ein Merge-Request auf diesem Git-Repository erstellt, nachdem die LaTex-Dateien bearbeitet oder ergänzt wurden. (Branch "master" ist gheschützt. Auf dev_master kann entwickelt werden)
+1. Optimaler Weise wird ein Merge-Request auf diesem Git-Repository erstellt, nachdem die LaTex-Dateien bearbeitet oder ergänzt wurden. (Branch `master` ist gheschützt. Auf `dev_master` kann entwickelt werden)
 2. Issue auf Gitlab erstellen mit möglichst genauer Beschreibung des Problems
 3. Mail mit sehr genauer Beschreibung oder Komplettlösung einer Frage (Adresse in PDF)
 4. Mail mit Hinweisen auf Fehler oder Ähnliches
