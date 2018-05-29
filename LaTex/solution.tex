@@ -10,9 +10,20 @@
 \usepackage{float}
 \usepackage{hyperref}
 \usepackage[backend=biber,sortcites,defernumbers]{biblatex}
+\usepackage{enumitem}
+\setlist[1]{itemsep=0pt}
 \addbibresource{solution.bib}
 
-\begin{document}
+\DeclareInstance{exsheets-heading}{block-no-nr}{default}{
+  attach = {
+    main[l,vc]title[l,vc](0pt,0pt) ;
+    main[r,vc]points[l,vc](\marginparsep,0pt)
+  }
+}
+
+\RenewQuSolPair
+  {question}[headings=block-subtitle]
+  {solution}[headings=block-no-nr]
 
 \SetupExSheets{
   question/type = exam ,
@@ -20,6 +31,8 @@
   solution/print = true,
   counter-within=section
 }
+
+\begin{document}
 
 \let\oldsolution\solution
 
@@ -30,14 +43,15 @@
 
 \begin{titlepage}
   \centering
-  \Huge Theoriepr"ufung DSV-Skilehrer \par
+  \Huge Theorieprüfung DSV-Skilehrer \par
   \vspace{3cm}
   \normalsize
-    Diese L"osung wurde nicht von mir selbst erstellt. Ich habe diese Lösung aus mehreren anderen L"osungen zus"atzlich einiger Erg"anzungen zusammengestellt. Anmerkungen oder Fragen k"onnen gerne an \href{mailto:alex.baeuerle@uni-ulm.de}{alex.baeuerle@uni-ulm.de} gestellt werden.\\
-  Es gibt einige Fragen mit Kursiv geschriebenen Abchnitten und / Trennzeichen. Dies ist als Auswahl zu verstehen, und in der tats"achlichen Frage steht nur eine der M"oglichkeiten.\\
+  Es gibt einige Fragen mit Kursiv geschriebenen Abchnitten und / Trennzeichen. Dies ist als Auswahl zu verstehen, und in der tatsächlichen Frage steht nur eine der Möglichkeiten.\\
+  Diese Lösung wurde nicht von mir selbst erstellt. Ich habe diese Lösung aus mehreren anderen Lösungen zusätzlich einiger Ergänzungen zusammengestellt. Anmerkungen oder Fragen können gerne an \href{mailto:alex.baeuerle@uni-ulm.de}{alex.baeuerle@uni-ulm.de} gestellt werden.
+  \vspace{4em}
+  \tableofcontents
 \end{titlepage}
 
-\tableofcontents
 \include{sportorganisation}
 \include{sportrechtsicherheit}
 \include{sportpaedagogik}
