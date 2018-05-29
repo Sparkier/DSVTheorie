@@ -16,14 +16,14 @@ Leider sind noch nicht alle Fragen in dieser Lösung vorhanden. Hier sieht man d
 
 1. Sportorganisation :white_check_mark:
 2. Sportrechtsicherheit :white_check_mark:
-3. Sportpaedagogik
-4. Sportdidaktik
-5. Sportpsychologie
-6. Biomechanik
-7. Bewegungslehre
-8. Trainingslehre
-9. Ernaehrung
-10. Sportmedizin
-11. Risikomanagement
-12. Material (Sportartspezifisch)
-13. Technik und Methodik (Sportartspezifisch)
+3. Sportpaedagogik :white_check_mark:
+4. Sportdidaktik :white_check_mark:
+5. Sportpsychologie :white_check_mark:
+6. Biomechanik :x: (Nur Fragen, keine Lösungen)
+7. Bewegungslehre :x: (Nur Fragen, keine Lösungen)
+8. Trainingslehre :x: (Nur Fragen, keine Lösungen)
+9. Ernaehrung :x: (Nur Fragen, keine Lösungen)
+10. Sportmedizin :x: (Noch nicht aufgenommen)
+11. Risikomanagement :x: (Noch nicht aufgenommen)
+12. Material (Sportartspezifisch) :x: (Noch nicht aufgenommen)
+13. Technik und Methodik (Sportartspezifisch) :x: (Noch nicht aufgenommen)
