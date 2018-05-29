@@ -1,3 +1,5 @@
+{::options parse_block_html="true" /}
+
 # DSVTheorie
 Hier ist ein Lösungsbogen für die Theoriefragen des DSV-Skilehrers ([PDF Download](https://gitlab.com/Sparkier/DSVTheorie/raw/master/LaTex/solution.pdf)).
 
