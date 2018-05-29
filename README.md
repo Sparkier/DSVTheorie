@@ -1,5 +1,3 @@
-{::options parse_block_html="true" /}
-
 # DSVTheorie
 Hier ist ein Lösungsbogen für die Theoriefragen des DSV-Skilehrers ([PDF Download](https://gitlab.com/Sparkier/DSVTheorie/raw/master/LaTex/solution.pdf)).
 
@@ -16,12 +14,16 @@ Ich bin jedoch über jegliche Hilfe froh.
 ## Stand
 Leider sind noch nicht alle Fragen in dieser Lösung vorhanden. Hier sieht man den aktuellen Stand der Lösung:
 
-<div class="panel panel-success">
-**Do's**
-{: .panel-heading}
-<div class="panel-body">
-
-THINGS TO DO
-
-</div>
-</div>
+1. Sportorganisation :white_check_mark:
+2. Sportrechtsicherheit :white_check_mark:
+3. Sportpaedagogik
+4. Sportdidaktik
+5. Sportpsychologie
+6. Biomechanik
+7. Bewegungslehre
+8. Trainingslehre
+9. Ernaehrung
+10. Sportmedizin
+11. Risikomanagement
+12. Material (Sportartspezifisch)
+13. Technik und Methodik (Sportartspezifisch)
